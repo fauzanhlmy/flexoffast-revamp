@@ -129,7 +129,7 @@
         height: 5px;
         top: -6px;
         left: 50%;
-        background: #FFFFFF;
+        background: #FF6500;
         transition: .5s;
     }
 
@@ -585,7 +585,7 @@
   width: 25px;
   height: 25px;
   right: -13px;
-  background-color: #213555;
+  background-color: #FF6500;
   border: 4px solid #213555;
   top: 15px;
   border-radius: 50%;
