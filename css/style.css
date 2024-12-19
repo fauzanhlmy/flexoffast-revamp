@@ -488,7 +488,7 @@
 
 /*** middle ***/
 .middle {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/map.png) center center no-repeat;
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/background.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -554,7 +554,7 @@
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #FF6500;
+  background-color: #FFFFFF;
 /*  background-color: #213555;*/
   top: 0;
   bottom: 0;
@@ -602,7 +602,7 @@
 
 .content {
   padding: 20px;
-  background-color: rgba(37, 42, 49, 0.6); 
+  background-color: rgba(0, 0, 0, 0.2); 
   position: relative;
   border-radius: 6px;
 
