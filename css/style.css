@@ -543,3 +543,131 @@
 .middle .copyright a {
     color: var(--light);
 }
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #213555;
+  top: 0;
+  bottom: 0;
+  left: 50%; /* Default alignment for desktop */
+  transform: translateX(-50%);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.timeline-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timeline-container.left {
+  left: 0;
+}
+
+.timeline-container.right {
+  left: 50%;
+}
+
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  background-color: #213555;
+  border: 4px solid #213555;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-container.right::after {
+  left: -13px;
+}
+
+.content {
+  padding: 20px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.content h2 {
+  font-size: 20px;
+  color: #ff9f55;
+}
+
+.content h3 {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.content p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.content img {
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* Mobile-Friendly Adjustments */
+@media screen and (max-width: 768px) {
+  .timeline {
+    padding: 0 20px;
+  }
+
+  .timeline::after {
+    display: none; /* Hilangkan garis timeline */
+  }
+
+  .timeline-container {
+    width: 100%; /* Full-width containers */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px; /* Add space between containers */
+  }
+
+  .timeline-container.left,
+  .timeline-container.right {
+    left: 0; /* Reset left alignment for mobile */
+  }
+
+  .timeline-container::after {
+    display: none; /* Hilangkan lingkaran */
+  }
+
+  .content {
+    padding: 15px;
+    font-size: 14px; /* Adjust font sizes */
+  }
+
+  .content h2 {
+    font-size: 18px;
+  }
+
+  .content h3 {
+    font-size: 14px;
+  }
+
+  .content p {
+    font-size: 12px;
+  }
+}
