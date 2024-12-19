@@ -602,9 +602,10 @@
 
 .content {
   padding: 20px;
-  background-color: #252A31;
+  background-color: rgba(37, 42, 49, 0.6); 
   position: relative;
   border-radius: 6px;
+
 }
 
 .content h2 {
