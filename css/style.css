@@ -623,4 +623,9 @@
   .content p {
     font-size: 12px;
   }
+  
+  .middle {
+        background-attachment: scroll; /* Fallback for mobile */
+        background-size: cover; /* Ensures proper scaling */
+    }
 }
