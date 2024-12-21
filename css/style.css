@@ -219,8 +219,18 @@
     border-color: var(--primary);
 }
 
+.img-header{
+    margin-left: 35%;
+    width: 400px; 
+    height: 220px;
+}
+
 .page-header {
     background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header-sustanbility {
+    background: linear-gradient(rgba(255, 255, 255, .0), rgba(6, 3, 21, .0)), url(../img/sustainibility-header-background.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -625,5 +635,11 @@
   .middle {
         background-attachment: scroll; /* Fallback for mobile */
         background-size: cover; /* Ensures proper scaling */
+    }
+
+    .img-header{
+        margin-left: 0%;
+        width: 80%; 
+        height: 80%;
     }
 }
