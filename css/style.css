@@ -335,6 +335,11 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.shadow-border-item-two {
+    border-radius: 10px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .team-item div.btn-slide span a:hover i {
     background: var(--secondary);
 }
@@ -492,6 +497,13 @@
     color: var(--light);
 }
 
+/*** middle ***/
+.partner-back {
+    background:  linear-gradient(rgba(211, 211, 211, 0.1), rgba(0, 0, 0, 0)), url(../img/partner.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 
 
 .timeline {
@@ -504,7 +516,7 @@
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #FF6600;
+  background-color: #FFFFFF;
   top: 0;
   bottom: 0;
   left: 50%; /* Default alignment for desktop */
