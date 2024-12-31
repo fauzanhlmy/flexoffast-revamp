@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Logistica - Shipping Company Website Template</title>
+     <title>Flex of Fast</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -32,7 +32,7 @@
 </head>
 
 <body>
-     <!-- LOADING PAGE : START -->
+ <!-- LOADING PAGE : START -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
@@ -54,11 +54,11 @@
                     <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
                     <a href="sustainbility.html" class="nav-item nav-link">Sustainbility</a>
-                    <a href="service.html" class="nav-item nav-link active">Services</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
                     <a href="blog.html" class="nav-item nav-link">Blog</a>
                     <a href="https://flexotrans.com" class="nav-item nav-link">Track</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    <a href="contact.html" class="nav-item nav-link">Location</a>
+                    <a href="location.html" class="nav-item nav-link active">Location</a>
                 </div>
                 <h4 class="m-0 pe-lg-5 d-none d-lg-block"></i><a href="#">EN</a></h4>
             </div>
@@ -67,107 +67,74 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+    <div class="container-fluid page-header-contact py-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Our Services</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Location</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item text-white active" aria-current="page">Service</li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Location</li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-     <!-- Fact Start -->
-    <div class="container-xxl">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-12">
-                    <h1 class="text-warning text-uppercase text-center mb-4 wow fadeInUp" data-wow-delay="0.1s">360° Capabilities</h1>
-                    <p class="text-primary text-center wow fadeInUp mb-5" data-wow-delay="0.3s" style="margin-left: 10%; margin-right: 10%;">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-                    empor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-                empor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fact End -->
 
-    <!-- About Start -->
-    <div class="container-fluid overflow-hidden px-lg-0">
-        <div class="container about py-5 px-lg-0">
+    <!-- Contact Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container contact-page py-5 px-lg-0">
             <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid shadow-border-item" src="img/360-fast.jpg" style="object-fit: cover;" alt="">
+                <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Get In Touch</h6>
+                    <h1 class="mb-4">Contact For Any Query</h1>
+                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <div class="bg-light p-4">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h2 class="text-warning text-uppercase mb-3">#1 Fullfillment Services</h2>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-  <!-- About Start -->
-    <div class="container-fluid overflow-hidden px-lg-0">
-        <div class="container about py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h2 class="text-warning text-uppercase mb-3">#2 Shipping</h2>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                </div>
-                <div class="col-lg-6 ps-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="col-md-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid shadow-border-item" src="img/360-trans.jpg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-  <!-- About Start -->
-    <div class="container-fluid overflow-hidden px-lg-0">
-        <div class="container about py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid shadow-border-item" src="img/360-commerce.jpg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h2 class="text-warning text-uppercase mb-3">#3 E-commerce management</h2>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-  <!-- About Start -->
-    <div class="container-fluid overflow-hidden px-lg-0">
-        <div class="container about py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h2 class="text-warning text-uppercase mb-3">#4 Food Delivery</h2>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                </div>
-                <div class="col-lg-6 ps-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid shadow-border-item" src="img/360-digital.jpg" style="object-fit: cover;" alt="">
+                        <iframe class="position-absolute w-100 h-100" style="object-fit: cover;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                        frameborder="0" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
-
+    <!-- Contact End -->
 
   <!-- FOOTER :  START -->
         <div class="container-fluid bg-dark text-light footer pt-2 wow fadeIn" data-wow-delay="0.1s">
